@@ -1,0 +1,156 @@
+.kilogram-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.kilotop{
+    display: flex;
+    flex-direction: row;
+}
+
+.kilophoneDiv{
+    display: none;
+    background-image: url("./img/instagram-celular.png");
+    background-repeat: no-repeat;
+    width: 381px;
+    height: 582px;
+    margin-right: 40px;
+}
+
+.kilophoneDiv>div{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding-left: 7.18rem;
+    padding-top: 1.81rem;
+}
+
+.kilophonePhoto{
+    position: absolute;
+    opacity: 0;
+    transition: 2s;
+}
+
+.kilophonePhotoActive{
+    opacity: 1!important;
+}
+
+.kilologin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.kilodiv1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.kilodiv2{
+    margin-top: 10px;
+    padding-top: 4.4rem;
+    padding-bottom: 2rem;
+}
+
+.kilologo{
+    margin-top: 3rem;
+}
+
+.perfil-img{
+    margin-top: 2rem;
+    border-radius: 50%;
+    width: 84px;
+    height: 84px;
+}
+
+#btnContinuar{
+    margin-top: 2.8rem;
+    background-color: #0095f6;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    color: white;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+a.kilolink{
+    color: #0095f6;
+    font-weight: 600;
+    text-decoration: none;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+#linkRemoverConta{
+    margin-top: 1.2rem;
+    font-size: 15px;
+}
+
+.kilotext{
+    color:#8e8e8e;
+    font-weight: 400;
+    font-family: "Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    
+}
+
+.kilomiddleText{
+    font-size: 14px;
+    text-align: center;
+}
+
+.download>a{
+    text-decoration: none;
+}
+
+.app-img{
+
+    width: 136px;
+    height: 40px;
+}
+
+.kilobottom{
+    margin-top: 3.5rem;
+}
+
+.kilobottomDiv{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.kilobottomItem{
+    font-size: 12px;
+    text-decoration: none;
+    margin: 4px 10px;
+}
+
+@media (min-width: 650px) {
+    body{
+        background-color: rgb(246, 246, 246);
+    }
+    .kilophoneDiv{
+        display: flex;
+    }
+    .kilologin{
+        padding-top: 100px;
+    }
+    .kilodiv1{
+        border: 1px solid silver;
+        padding-bottom: 20px;
+        min-width: 340px;
+        background-color: #FFFF;
+    }
+    .kilodiv2{
+        border: 1px solid silver;
+        background-color: #FFFF;
+        min-width: 340px;
+        margin-top: 10px;
+        padding: 1.1rem 0;
+    }
+}
+
