@@ -2,9 +2,12 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 100vw;
+    height: 96vh;
 }
 
 .kilotop{
+    margin: 0px auto auto auto;
     display: flex;
     flex-direction: row;
 }
@@ -13,8 +16,8 @@
     display: none;
     background-image: url("./img/instagram-celular.png");
     background-repeat: no-repeat;
-    width: 381px;
-    height: 582px;
+    min-width: 381px;
+    min-height: 582px;
     margin-right: 40px;
 }
 
@@ -22,14 +25,16 @@
     position: relative;
     width: 100%;
     height: 100%;
-    padding-left: 7.18rem;
-    padding-top: 1.81rem;
+    padding-left: 7.05rem;
+    padding-top: 1.78rem;
 }
 
 .kilophonePhoto{
     position: absolute;
     opacity: 0;
-    transition: 2s;
+    transition: 5s;
+    width: 252px;
+    height: 538px;
 }
 
 .kilophonePhotoActive{
@@ -116,6 +121,10 @@ a.kilolink{
     margin-top: 3.5rem;
 }
 
+.kilobottomC3{
+    margin: 12px 0px;
+}
+
 .kilobottomDiv{
     display: flex;
     flex-direction: row;
@@ -133,22 +142,38 @@ a.kilolink{
     body{
         background-color: rgb(246, 246, 246);
     }
+    .kilotop{
+        margin:auto;
+        justify-content: center;
+        padding-top: 70px;
+        padding-bottom: 82px;
+        width: 100%;
+        max-width: 935px;
+    }
+    .kilobottom{
+        padding: 0px 16px;
+        margin: 0px;
+        width: 100%;
+    }
+
+    .kilobottomConteudo{
+        margin: 0px 0px 0px;
+    }
     .kilophoneDiv{
         display: flex;
-    }
-    .kilologin{
-        padding-top: 100px;
+        margin: 0px 32px 12px 0px;
     }
     .kilodiv1{
         border: 1px solid silver;
         padding-bottom: 20px;
-        min-width: 340px;
+        min-width: 350px;
         background-color: #FFFF;
+        min-height: 396px;
     }
     .kilodiv2{
         border: 1px solid silver;
         background-color: #FFFF;
-        min-width: 340px;
+        min-width: 350px;
         margin-top: 10px;
         padding: 1.1rem 0;
     }
